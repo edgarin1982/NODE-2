@@ -1,4 +1,4 @@
-const {Schema, model} = rerquire('mongoose');
+const {Schema, model} = require('mongoose');
 
 
 const ArticuloSchema = Schema({

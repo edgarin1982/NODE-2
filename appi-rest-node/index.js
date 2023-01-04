@@ -20,6 +20,7 @@ app.use(cors());
 //convertir body a objeto js
 
 app.use(express.json())
+app.use(express.urlencoded({extended: true}))//form url encoded
 
 
 //rutas
