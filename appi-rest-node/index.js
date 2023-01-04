@@ -21,7 +21,15 @@ app.use(cors());
 
 app.use(express.json())
 
-//crear rutas
+
+//rutas
+const rutas_articulo = require('./routes/articulo')
+
+//cargo las rutas
+app.use('/api', rutas_articulo)
+
+
+//rutas pruebas hardcodeadas
 
 app.get("/probando", (req, res) => {
     console.log("Se ha ejecutado la ruta");
