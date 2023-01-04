@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
 )
 })
 
-//crear serrvidor y escuchar peticiones http
+//crear servidor y escuchar peticiones http
 app.listen(puerto, ()=>{
     console.log('Servidor corriendo en el puerto '+ puerto);
 })
